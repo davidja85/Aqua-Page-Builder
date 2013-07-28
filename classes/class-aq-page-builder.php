@@ -547,7 +547,7 @@ if(!class_exists('AQ_Page_Builder')) {
 							
 							$block->block_callback($instance);
 							
-							$next_block_size = 0  // Reset $next_block_size;
+							$next_block_size = 0 ; // Reset $next_block_size;
 							$next_overgrid = 0 ; //$next_overgrid
 							$overgrid = 0; //reset $overgrid
 							$first = false; //reset $first
