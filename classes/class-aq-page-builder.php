@@ -504,7 +504,7 @@ if(!class_exists('AQ_Page_Builder')) {
 				//template wrapper
 				echo '<div id="aq-template-wrapper-'.$template_id.'" class="aq-template-wrapper aq_row">';
 				
-				$overgrid = 0; $span = 0; $first = false; $block_count = count($blocks); // Add block counts to help detect last block
+				$overgrid = 0; $span = 0; $first = false; $next_block_size= 0; $next_overgrid = 0 ;  $block_count = count($blocks); // Add block counts to help detect last block
 				
 				//outputs the blocks
 				foreach($blocks as $key => $instance) {
